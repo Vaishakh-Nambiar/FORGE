@@ -1,13 +1,14 @@
 import React from "react";
 // import { FaInstagram } from "react-icons/fa";
+import "./footer.css";
 
 function Footer() {
   return (
-    <footer className="ot-red ">
+    <footer className=" ">
       <div className="md:w-full mx-auto p-4 text-white">
         <div className="sm:flex items-center  sm:items-center sm:justify-evenly ">
           <a
-            href="https://flowbite.com/"
+            href="#"
             className="flex flex-wrap justify-center items-center mb-4 sm:mb-0"
           >
             <img
@@ -71,10 +72,7 @@ function Footer() {
         <hr className="my-6 border-black-200 sm:mx-auto dark:border-black-700 lg:my-8" />
         <span className="block text-sm text-black-500 text-center ">
           © 2023{" "}
-          <a
-            href="https://flowbite.com/"
-            className="hover:underline hover:text-white"
-          >
+          <a href="" className="hover:underline hover:text-white">
             Forge™
           </a>
           . All Rights Reserved.

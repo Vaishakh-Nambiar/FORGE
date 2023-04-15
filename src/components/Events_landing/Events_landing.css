@@ -1,3 +1,25 @@
+@media screen and (max-width: 415px) {
+  .event-lap {
+    display: none;
+  }
+  .event-title-mob {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+  }
+  .event-title-mob > .title {
+    font-size: 100px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .event-title-mob {
+    display: none;
+  }
+  
+}
 article {
   --img-scale: 1.001;
   --title-color: black;
@@ -95,6 +117,7 @@ article:has(:hover, :focus) {
   margin: 0;
   padding: 48px 0;
   font-family: var(--font-nn);
+  background-color: #000;
   /* font-family: "Figtree", sans-serif; */
   font-size: 1.2rem;
   line-height: 1.6rem;
@@ -152,7 +175,7 @@ article:has(:hover, :focus) {
 }
 
 .event-list {
-  /* background-color: black; */
+  background-color: black;
   border-radius: 20px 20px 0 0;
 }
 
@@ -162,6 +185,8 @@ article:has(:hover, :focus) {
   /* outline: 2px solid red; */
   margin-block: 3rem;
   position: relative;
+  overflow: hidden;
+  background-color: black;
 }
 
 .title-right {
@@ -191,3 +216,4 @@ article:has(:hover, :focus) {
   font-weight: 300;
   color: #000;
 }
+/* } */

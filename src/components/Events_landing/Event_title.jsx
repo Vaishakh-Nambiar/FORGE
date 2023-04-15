@@ -8,23 +8,23 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default function Event_title() {
   useEffect(() => {
-    gsap.fromTo(
-      ".App",
-      { backgroundColor: "inherit" },
-      {
-        backgroundColor: "black",
-        duration: 1,
-        // delay: 0.5,
-        // ease: "slow",
-        scrollTrigger: {
-          trigger: ".date-down",
-          //   markers: true,
-          scrub: 1,
-          start: "center center",
-          end: "bottom 10%",
-        },
-      }
-    );
+    // gsap.fromTo(
+    //   ".App",
+    //   { backgroundColor: "inherit" },
+    //   {
+    //     backgroundColor: "black",
+    //     duration: 1,
+    //     // delay: 0.5,
+    //     // ease: "slow",
+    //     scrollTrigger: {
+    //       trigger: ".date-down",
+    //       //   markers: true,
+    //       scrub: 1,
+    //       start: "center center",
+    //       end: "bottom 10%",
+    //     },
+    //   }
+    // );
     gsap.fromTo(
       ".title-right",
       { x: 200, color: "black" },
@@ -47,8 +47,14 @@ export default function Event_title() {
   }, []);
 
   return (
-    <section className="event-title ff-tc ">
-      <div className="title-right">Events</div>
-    </section>
+    <div className="">
+      <section className="event-title event-lap ff-tc ">
+        <div className="title-right">Events</div>
+      </section>
+
+      <section className="event-title-mob event-mon ff-tc ">
+        <div className="title">Events</div>
+      </section>
+    </div>
   );
 }

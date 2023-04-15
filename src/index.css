@@ -11,12 +11,12 @@
   --font-tc: "Technor", sans-serif;
   --font-nn: "Nunito", sans-serif;
 }
-body {
-  /* background-color: #fff3e2; */
-  /* background-color: #c7e9b0;
-  background-color: #fdf7c3; */
-  background-color: #f5eaea;
-}
+/* body {
+  background-color: #fff3e2;
+  background-color: #c7e9b0;
+  background-color: #fdf7c3;
+  background-color: #fdf7c3;
+} */
 
 .ff-tc {
   font-family: var(--font-tc);

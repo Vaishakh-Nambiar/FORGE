@@ -140,7 +140,7 @@ export const Intro = () => {
           <div className="qt-emp">THOUGHTS</div>
           <div className="qt-txt qt-down">to ACTIONS!</div>
         </div>
-        <div className="intro-title ">
+        <div className="intro-title intro-lap">
           <div className="title-up">
             <div className="">gamers</div>
             <div className="line-up">
@@ -156,10 +156,31 @@ export const Intro = () => {
             </div>
           </div>
         </div>
+
+        <div className="intro-mob ot-red ff-tc ">
+          {/* <div className="title-left ot-red"> */}
+          <div className="title-mob-box">
+            <ul className="title-mob ul-left">
+              <li className="">G</li>
+              <li className="">A</li>
+              <li className="">M</li>
+              <li className="">E</li>
+              <li className="">R</li>
+              <li className="">S</li>
+            </ul>
+            {/* </div> */}
+            {/* <div className="title-right ot-red text-black"> */}
+            <ul className="title-mob ul-right">
+              <li>G</li>
+              <li>A</li>
+              <li>R</li>
+              <li>A</li>
+              <li>G</li>
+              <li>E</li>
+            </ul>
+          </div>
+        </div>
       </div>
-      {/* <section className="filler ">
-        <img src="/pics/gif1.gif" alt="" srcset="" />
-      </section> */}
     </section>
   );
 };
