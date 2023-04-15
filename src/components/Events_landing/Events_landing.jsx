@@ -51,7 +51,7 @@ export default function Events_landing() {
                   thrilling cash prizes. Register now and show off your skills
                   in this epic gaming event!
                 </p>
-                <a href="#" class="read-more">
+                <a href="/fifa" class="read-more">
                   Register-now{" "}
                   <span class="sr-only">about this is some title</span>
                   <svg
@@ -83,7 +83,7 @@ export default function Events_landing() {
                   with players from other colleges. Don't miss this chance to be
                   a champion!{" "}
                 </p>
-                <a href="#" class="read-more">
+                <a href="/pubg" class="read-more">
                   Register-now{" "}
                   <span class="sr-only">about this is some title</span>
                   <svg
