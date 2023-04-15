@@ -4,7 +4,7 @@ import Infocards from "../Infocards/Infocards";
 
 export default function About() {
   return (
-    <section className="about-section ds-no ">
+    <section className="about-section ">
       <div className="about-container ">
         <div className="about-title title ff-tc "> About</div>
         <div className="about-info flex flex-col justify-evenly ">
