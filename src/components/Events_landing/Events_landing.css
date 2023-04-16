@@ -12,13 +12,15 @@
   .event-title-mob > .title {
     font-size: 100px;
   }
+  .event-list {
+    background-color: black;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .event-title-mob {
     display: none;
   }
-  
 }
 article {
   --img-scale: 1.001;

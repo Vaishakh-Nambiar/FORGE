@@ -1,3 +1,41 @@
+@media screen and (min-width: 768px) {
+  .toBlack-Mob {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 416px) {
+  .toBlack-Desk {
+    display: none;
+  }
+
+  .toBlack-Mob {
+    overflow-x: hidden;
+  }
+
+  .intro-box {
+    position: relative;
+    transition: all 200ms linear;
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .intro-1 {
+    position: relative;
+    height: 100vh;
+    font-weight: 700;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* outline: 2px solid red; */
+  }
+}
+
 .intro-1 {
   position: relative;
   height: 100vh;

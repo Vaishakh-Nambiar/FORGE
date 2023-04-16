@@ -8,7 +8,7 @@ export default function About() {
       <div className="about-container ">
         <div className="about-title title ff-tc "> About</div>
         <div className="about-info flex flex-col justify-evenly ">
-          <div className="info-text p-6 text-white text-[24px]">
+          <div className="info-text text-white text-[24px]">
             <p>
               {" "}
               Welcome to <span className="span-emp">GG!</span>, the ultimate
@@ -27,7 +27,7 @@ export default function About() {
               your life at GG!
             </p>
           </div>
-          <div className="hero-cards w-full px-6 py-4  ">
+          <div className="hero-cards w-full">
             <div className="info-container flex flex-wrap h-full flex-col justify-evenly ">
               <Infocards
                 name="gaming"

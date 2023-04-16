@@ -9,7 +9,7 @@ gsap.registerPlugin(ScrollTrigger);
 export default function Event_title() {
   useEffect(() => {
     gsap.fromTo(
-      ".App",
+      ".toBlack-Desk",
       { backgroundColor: "inherit" },
       {
         backgroundColor: "black",

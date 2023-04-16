@@ -25,7 +25,7 @@
   font-family: var(--font-nn);
 }
 
-.ot-red {
+/* .ot-red {
   outline: 2px solid red;
 }
 .ot-blue {
@@ -36,7 +36,7 @@
 }
 .ot-yellow {
   outline: 2px solid yellow;
-}
+} */
 
 .ds-no {
   display: none;

@@ -9,26 +9,52 @@ import Event_title from "./components/Events_landing/Event_title";
 function App() {
   return (
     <div className="App">
-      <div className="">
-        <Introloader />
-      </div>
-      <section className="intro-start ">
-        <Intro />
+      <section className="toBlack-Desk">
+        <div className="">
+          <Introloader />
+        </div>
+        <section className="intro-start ">
+          <Intro />
+        </section>
+        <div className="event-list">
+          <div className="">
+            <Event_title />
+          </div>
+          <div className="">
+            <Events_landing />
+          </div>
+        </div>
+        <div className="">
+          <About />
+        </div>
+        <div className="footer">
+          <Footer />
+        </div>
       </section>
-      <div className="event-list">
+      <section className="toBlack-Mob">
         <div className="">
-          <Event_title />
+          <Introloader />
         </div>
-        <div className="">
-          <Events_landing />
+        <section className="intro-start ">
+          <Intro />
+        </section>
+        <section className="bg-black">
+          <div className="event-list">
+            <div className="">
+              <Event_title />
+            </div>
+            <div className="">
+              <Events_landing />
+            </div>
+          </div>
+          <div className="">
+            <About />
+          </div>
+        </section>
+        <div className="footer">
+          <Footer />
         </div>
-      </div>
-      <div className="">
-        <About />
-      </div>
-      <div className="footer">
-        <Footer />
-      </div>
+      </section>
     </div>
   );
 }
