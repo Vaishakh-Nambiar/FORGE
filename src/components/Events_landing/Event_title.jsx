@@ -14,11 +14,8 @@ export default function Event_title() {
       {
         backgroundColor: "black",
         duration: 1,
-        // delay: 0.5,
-        // ease: "slow",
         scrollTrigger: {
           trigger: ".date-down",
-          //   markers: true,
           scrub: 1,
           start: "center center",
           end: "bottom 10%",
