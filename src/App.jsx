@@ -10,27 +10,32 @@ function App() {
   return (
     <div className="App">
       <section className="toBlack-Desk">
+        {/* <a href="#intro-sec"> */}
         <div className="">
           <Introloader />
         </div>
-        <section className="intro-start ">
-          <Intro />
+        {/* </a> */}
+        <section className="onClickShow">
+          <section className="intro-start " id="intro-sec">
+            <Intro />
+          </section>
+          <div className="event-list">
+            <div className="">
+              <Event_title />
+            </div>
+            <div className="">
+              <Events_landing />
+            </div>
+          </div>
+          <div className="">
+            <About />
+          </div>
+          <div className="footer">
+            <Footer />
+          </div>
         </section>
-        <div className="event-list">
-          <div className="">
-            <Event_title />
-          </div>
-          <div className="">
-            <Events_landing />
-          </div>
-        </div>
-        <div className="">
-          <About />
-        </div>
-        <div className="footer">
-          <Footer />
-        </div>
       </section>
+
       <section className="toBlack-Mob">
         <div className="">
           <Introloader />

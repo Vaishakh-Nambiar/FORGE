@@ -19,8 +19,8 @@ export default function Events_landing() {
                   other college teams in intense gameplay that rewards strategy
                   and teamwork. Don't miss out on this thrilling gaming event!
                 </p>
-                <a href="#" class="read-more">
-                  Read more{" "}
+                <a href="/valorant" class="read-more">
+                  Register-now{" "}
                   <span class="sr-only">about this is some title</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -51,8 +51,8 @@ export default function Events_landing() {
                   thrilling cash prizes. Register now and show off your skills
                   in this epic gaming event!
                 </p>
-                <a href="#" class="read-more">
-                  Read more{" "}
+                <a href="/fifa" class="read-more">
+                  Register-now{" "}
                   <span class="sr-only">about this is some title</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -83,8 +83,8 @@ export default function Events_landing() {
                   with players from other colleges. Don't miss this chance to be
                   a champion!{" "}
                 </p>
-                <a href="#" class="read-more">
-                  Read more{" "}
+                <a href="/pubg" class="read-more">
+                  Register-now{" "}
                   <span class="sr-only">about this is some title</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -117,7 +117,7 @@ export default function Events_landing() {
                   VR/AR.
                 </p>
                 <a href="#" class="read-more">
-                  Read more{" "}
+                  Register-now{" "}
                   <span class="sr-only">about this is some title</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -150,7 +150,7 @@ export default function Events_landing() {
                   egestas.
                 </p>
                 <a href="#" class="read-more">
-                  Read more{" "}
+                  Register-now{" "}
                   <span class="sr-only">about this is some title</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -184,7 +184,7 @@ export default function Events_landing() {
                   movie on the big screen at our gaming event.{" "}
                 </p>
                 <a href="#" class="read-more">
-                  Read more{" "}
+                  Read-more{" "}
                   <span class="sr-only">about this is some title</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -217,7 +217,7 @@ export default function Events_landing() {
                   egestas.
                 </p>
                 <a href="#" class="read-more">
-                  Read more{" "}
+                  Read-more{" "}
                   <span class="sr-only">about this is some title</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -251,7 +251,7 @@ export default function Events_landing() {
                   missions and espionage.{" "}
                 </p>
                 <a href="#" class="read-more">
-                  Read more{" "}
+                Read-more{" "}
                   <span class="sr-only">about this is some title</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -285,7 +285,7 @@ export default function Events_landing() {
                   movie on the big screen at our gaming event.{" "}
                 </p>
                 <a href="#" class="read-more">
-                  Read more{" "}
+                Read-more{" "}
                   <span class="sr-only">about this is some title</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
