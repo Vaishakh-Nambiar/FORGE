@@ -21,6 +21,7 @@
 
 body{
   cursor: url("./assets/among-us.svg"), auto;
+  
 }
 .ff-tc {
   font-family: var(--font-tc);
@@ -48,3 +49,22 @@ body{
 
 
 
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #a6deff;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #777474;
+}
