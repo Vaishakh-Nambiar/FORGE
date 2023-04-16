@@ -5,6 +5,7 @@
 * {
   box-sizing: border-box;
   /* padding: 0; */
+  
 }
 
 :root {
@@ -18,6 +19,9 @@
   background-color: #fdf7c3;
 } */
 
+body{
+  cursor: url("./assets/among-us.svg"), auto;
+}
 .ff-tc {
   font-family: var(--font-tc);
 }
@@ -41,3 +45,6 @@
 .ds-no {
   display: none;
 }
+
+
+
