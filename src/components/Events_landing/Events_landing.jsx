@@ -183,8 +183,8 @@ export default function Events_landing() {
                   all-star cast. Don't miss your chance to see this blockbuster
                   movie on the big screen at our gaming event.{" "}
                 </p>
-                <a href="#" class="read-more">
-                  Read-more{" "}
+                {/* <a href="#" class="read-more">
+                  {" "}
                   <span class="sr-only">about this is some title</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -198,7 +198,7 @@ export default function Events_landing() {
                       clip-rule="evenodd"
                     />
                   </svg>
-                </a>
+                </a> */}
               </div>
             </div>
           </article>
@@ -216,8 +216,8 @@ export default function Events_landing() {
                   lobortis porta. Vestibulum ultrices iaculis enim imperdiet
                   egestas.
                 </p>
-                <a href="#" class="read-more">
-                  Read-more{" "}
+                {/* <a href="#" class="read-more">
+                  {" "}
                   <span class="sr-only">about this is some title</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -231,7 +231,7 @@ export default function Events_landing() {
                       clip-rule="evenodd"
                     />
                   </svg>
-                </a>
+                </a> */}
               </div>
             </div>
           </article>
@@ -250,8 +250,8 @@ export default function Events_landing() {
                   cutting-edge technology, experience a thrilling world of spy
                   missions and espionage.{" "}
                 </p>
-                <a href="#" class="read-more">
-                Read-more{" "}
+                {/* <a href="#" class="read-more">
+                {" "}
                   <span class="sr-only">about this is some title</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -265,7 +265,7 @@ export default function Events_landing() {
                       clip-rule="evenodd"
                     />
                   </svg>
-                </a>
+                </a> */}
               </div>
             </div>
           </article>
@@ -284,7 +284,7 @@ export default function Events_landing() {
                   all-star cast. Don't miss your chance to see this blockbuster
                   movie on the big screen at our gaming event.{" "}
                 </p>
-                <a href="#" class="read-more">
+                {/* <a href="#" class="read-more">
                 Read-more{" "}
                   <span class="sr-only">about this is some title</span>
                   <svg
@@ -299,7 +299,7 @@ export default function Events_landing() {
                       clip-rule="evenodd"
                     />
                   </svg>
-                </a>
+                </a> */}
               </div>
             </div>
           </article>

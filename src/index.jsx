@@ -33,6 +33,10 @@ function Routee() {
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum."
                 reference="/valorant-registration"
+                entryFee = "300/-"
+                eventVenue = "Computer Science labs"
+                prizePool = "15000/-"
+                eventDate = "21/04/2023 - 22/04/2023"
                 // imgLink={gaming_arena}
               />
             }

@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 
+
 function EventPage(props) {
   return (
     <div className="event1">
