@@ -220,8 +220,13 @@ article:has(:hover, :focus) {
 }
 /* } */
 .read-more{
-  padding-top: 40px;
-  font-size: 30px;
+  margin-top: 40px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #333;
+  color: #efefef;
+  border-radius: 10px;
+  text-align: center;
 }
 
 
