@@ -30,6 +30,7 @@ function Fifa() {
   }
 
   return (
+    <div className="login">
     <div className="form">
       <h1 className="form-title">Fifa Registration</h1>
       <form method="POST" onSubmit={registerFifaUser}>
@@ -39,6 +40,7 @@ function Fifa() {
           placeholder="Full Name"
           onChange={(e) => setName(e.target.value)}
           className="input"
+          required
         />
         <br />
         <input
@@ -47,6 +49,8 @@ function Fifa() {
           placeholder="Email"
           className="input"
           onChange={(e) => setEmail(e.target.value)}
+          required
+
         />
         <br />
         <input
@@ -54,6 +58,7 @@ function Fifa() {
           type="text"
           placeholder="Gamer Tag"
           className="input"
+          required
           onChange={(e) => setGamerTag(e.target.value)}
         />
         <br />
@@ -62,6 +67,7 @@ function Fifa() {
           type="text"
           placeholder="Registration Number ( ID No.)"
           className="input"
+          required
           onChange={(e) => setRegNo(e.target.value)}
         />
         <br />
@@ -70,11 +76,17 @@ function Fifa() {
           type="text"
           placeholder="Cusp Rank"
           className="input"
+          required
           onChange={(e) => setCuspRank(e.target.value)}
         />
         <br />
-        <button type="submit" className="button">Submit</button>
+        <button type="submit" className="valorant-btn">
+          <span class="underlay">
+            <span class="label">Submit</span>
+          </span>
+        </button>
       </form>
+    </div>
     </div>
   );
 }

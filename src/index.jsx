@@ -7,7 +7,9 @@ import Bgmi from "./components/event_forms/bgmi";
 import SuccussPage from "./components/event_forms/sucess";
 import EventPage from "./components/event_forms/eventpage";
 import App from "./App";
-// import gaming_arena from "dance_gif.gif"
+import Hackathon from "./components/event_forms/hackathon";
+import Rendezvous from "./components/event_forms/rendezvous";
+
 
 function Routee() {
   return (
@@ -19,6 +21,8 @@ function Routee() {
           <Route path="/fifa-registration" exact element={<Fifa />} />
           <Route path="/bgmi-registration" exact element={<Bgmi />} />
           <Route path="/succuss" exact element={<SuccussPage />} />
+          <Route path="/hackathon-registration" exact element={<Hackathon />} />
+          <Route path="/rendezvous-registration" exact element={<Rendezvous />} />
           <Route
             path="/valorant"
             exact
@@ -88,7 +92,7 @@ function Routee() {
               reprehenderit in voluptate velit esse cillum dolore eu fugiat
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum."
-                reference="/valorant-registration"
+                reference="/hackathon-registration"
               />
             }
           />
@@ -105,7 +109,7 @@ function Routee() {
               reprehenderit in voluptate velit esse cillum dolore eu fugiat
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum."
-                reference="/valorant-registration"
+                reference="/rendezvous-registration"
               />
             }
           />
@@ -122,7 +126,6 @@ function Routee() {
               reprehenderit in voluptate velit esse cillum dolore eu fugiat
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum."
-                reference="/valorant-registration"
               />
             }
           />
@@ -139,7 +142,6 @@ function Routee() {
               reprehenderit in voluptate velit esse cillum dolore eu fugiat
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum."
-                reference="/valorant-registration"
               />
             }
           />
@@ -156,7 +158,6 @@ function Routee() {
               reprehenderit in voluptate velit esse cillum dolore eu fugiat
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum."
-                reference="/valorant-registration"
               />
             }
           />
@@ -173,7 +174,6 @@ function Routee() {
               reprehenderit in voluptate velit esse cillum dolore eu fugiat
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum."
-                reference="/valorant-registration"
               />
             }
           />

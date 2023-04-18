@@ -4,10 +4,11 @@ import "./style.css";
 
 function EventPage(props) {
   return (
+    <div className="event-main">
     <div className="event1">
       <section class="event-page1">
         <div className="content1">
-          <h1 style={{ color: "#FF4654", fontFamily: "Play", fontSize: "4em" }}>
+          <h1 className='event-title'>
             {props.eventName}
           </h1>
           <p
@@ -121,6 +122,7 @@ function EventPage(props) {
       <div>
         <img src={props.imgLink}></img>
       </div>
+    </div>
     </div>
   );
 }

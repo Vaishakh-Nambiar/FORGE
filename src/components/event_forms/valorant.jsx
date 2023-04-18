@@ -11,7 +11,7 @@ function Valorant(){
 
     async function registerUser(event) {
       event.preventDefault();
-      const res = await Axios.post(
+      await Axios.post(
         "https://forge-backend-service.onrender.com/valo",
         {
           TeamName: TeamName,
@@ -29,6 +29,7 @@ function Valorant(){
     }
 
     return (
+      <div className="login">
       <div className="form">
         <h1 className="form-title">Valorant Registration</h1>
         <form method="POST" onSubmit={registerUser}>
@@ -67,9 +68,14 @@ function Valorant(){
             onChange={(e) => setTxId(e.target.value)}
           />
           <br />
-          <button type="submit">Submit</button>
+        <button type="submit" className="valorant-btn">
+          <span class="underlay">
+            <span class="label">Submit</span>
+          </span>
+        </button>
           
         </form>
+      </div>
       </div>
     );
 }

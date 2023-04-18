@@ -28,7 +28,7 @@ select {
   box-sizing: border-box;
 }
 
-button[type="submit"] {
+/* button[type="submit"] {
   width: 50%;
   background-color: #494949;
   color: white;
@@ -41,7 +41,7 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
   background-color: #45a049;
-}
+} */
 
 .succuss {
   width: 100%;
@@ -69,10 +69,25 @@ button[type="submit"]:hover {
   height: 400px;
 }
 
+.event-title{
+  color: "#FF4654"; 
+  font-family: "Play"; 
+  font-size: "4em"
+}
+
+.event-main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 50px; */
+}
+
 .event1 {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  width: 50%;
 }
 
 .event-page1 {
@@ -80,21 +95,16 @@ button[type="submit"]:hover {
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  width: 100%;
-  height: 100vh;
   text-align: left;
   padding: 20px;
-  background-color: #000000;
-  /* padding-right: 20px; */
-  /* margin-right: 200px; */
+  background-color: #333;
+  min-height: 100vh;
 }
 
 .content1 {
   color: #efefef;
   font-family: "Rubik";
-  padding: 0px 500px;
-  margin-right: 50px;
-  /* margin-bottom: 200px; */
+  padding: 0px 100px;
   
 }
 
@@ -221,4 +231,41 @@ button[type="submit"]:hover {
 .valorant-btn:active:after {
   transform: translateY(5px) translateX(-50%);
   padding: 10px 5px;
+}
+
+
+@media (max-width:420px) {
+  .valorant-btn{
+    /* width: 100px; */
+    transform: scale(0.6);
+    
+  }
+  .event-main{
+    width: auto;
+  }
+
+  .event-title{
+    font-size: 20px;
+    color: #FF4654;
+  }
+
+  .content1{
+    padding: 0 -10px;
+    width: 80%;
+  }
+
+  /* .event1{
+    transform: scale(0.6);
+    width: 100%;
+
+  }
+
+  .event-page1{
+    width: 100%;
+  }
+  .content1{
+    padding: 50px;
+
+  } */
+
 }
