@@ -29,7 +29,7 @@ function Routee() {
             element={
               <EventPage
                 eventName="Valorant"
-                eventDescription="Ready to put your skills to the test? Join our Valorant gaming tournament and compete with the best players in the game! With exciting prizes, thrilling matches, and fierce competition, this is the ultimate event for serious gamers. Register now and show us what you've got!"
+                eventDescription="Ready to put your skills to the test?Join our Valorant gaming tournament and compete with the best players in the game! With exciting prizes, thrilling matches, and fierce competition, this is the ultimate event for serious gamers. Register now and show us what you've got!"
                 
                 reference="/valorant-registration"
                 entryFee = "300/-"
@@ -46,13 +46,8 @@ function Routee() {
             element={
               <EventPage
                 eventName="Fifa"
-                eventDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum."
+                eventDescription="Are you ready to take your FIFA skills to the next level? Join our FIFA gaming tournament and compete against the best players in the game! With thrilling matches, intense gameplay, and exciting prizes, this is the ultimate event for soccer fans and gamers alike. Register now and show us your skills!"
+
                 reference="/fifa-registration"
               />
             }
@@ -63,13 +58,8 @@ function Routee() {
             element={
               <EventPage
                 eventName="BGMI"
-                eventDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum."
+                eventDescription="Get ready for the ultimate battle royale experience! Join our BGMI gaming tournament and compete against top players for a chance to win amazing prizes. With intense gameplay, adrenaline-pumping action, and skilled competitors, this event is not to be missed. Register now and enter the battlegrounds!"
+
                 reference="/bgmi-registration"
               />
             }
@@ -80,13 +70,8 @@ function Routee() {
             element={
               <EventPage
                 eventName="Hackathon"
-                eventDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum."
+                eventDescription="Join our VR/AR hackathon and take your skills to the next level! With cutting-edge technology and innovative challenges, this event is the ultimate opportunity to showcase your creativity and expertise. Network with like-minded professionals, develop amazing projects, and win prizes. Register now and join the future of technology!"
+
                 reference="/hackathon-registration"
               />
             }
@@ -130,13 +115,8 @@ function Routee() {
             element={
               <EventPage
                 eventName="Hallucinate"
-                eventDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum."
+                eventDescription="Experience a world beyond your imagination with our VR event featuring the Oculus headset! Explore amazing virtual landscapes, interact with objects, and immerse yourself in an entirely new reality. Join us for a mind-bending experience that will leave you wanting more!"
+
               />
             }
           />

@@ -33,6 +33,8 @@ function Hackathon() {
   }
 
   return (
+    <div className="mg">
+      <img src="hackathon_gif.gif" alt="" />
     <div className="login">
     <div className="form">
       <h1>Hackathon Registration</h1>
@@ -76,6 +78,7 @@ function Hackathon() {
           </span>
         </button>
       </form>
+    </div>
     </div>
     </div>
   );

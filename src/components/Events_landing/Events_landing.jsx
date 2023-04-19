@@ -76,7 +76,7 @@ export default function Events_landing() {
                 <img src="pubg_gif.gif" alt="" />
               </figure>
               <div class="article-body">
-                <h2>PUBG</h2>
+                <h2>BGMI</h2>
                 <p>
                   Join our BGMI intercollege tournament and win exciting cash
                   prizes! Show off your mobile gaming skills and battle it out
@@ -105,9 +105,9 @@ export default function Events_landing() {
 
           <article>
             <div class="article-wrapper">
-              <figure>
+              {/* <figure>
                 <img src="hackathon_gif.gif" alt="" />
-              </figure>
+              </figure> */}
               <div class="article-body">
                 <h2>Hackathon</h2>
                 <p>
@@ -116,7 +116,7 @@ export default function Events_landing() {
                   mentorship. Win exciting prizes and explore the potential of
                   VR/AR.
                 </p>
-                <a href="#" class="read-more">
+                <a href="/hackathon" class="read-more">
                   Register-now{" "}
                   <span class="sr-only">about this is some title</span>
                   <svg
