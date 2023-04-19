@@ -91,14 +91,12 @@ function Routee() {
             element={
               <EventPage
                 eventName="Rendezvous"
-                eventDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum."
+                eventDescription="Embark on a treasure hunt like never before! Our AR integrated event uses the latest technology to create an immersive and exciting experience. Explore the city, solve clues, and discover hidden treasures in this unforgettable adventure. Register now and see the world in a whole new way!"
                 reference="/rendezvous-registration"
+                entryFee = "NADA"
+                eventVenue = "Yoga-Hall, 3rd floor, E-Block"
+                prizePool = "3000/-"
+                eventDate = "21/04/2023 - 22/04/2023"
               />
             }
           />
