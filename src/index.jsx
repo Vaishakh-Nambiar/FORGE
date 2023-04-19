@@ -62,7 +62,7 @@ function Routee() {
               <EventPage
                 eventName="BGMI"
                 eventDescription="Get ready for the ultimate battle royale experience! Join our BGMI gaming tournament and compete against top players for a chance to win amazing prizes. With intense gameplay, adrenaline-pumping action, and skilled competitors, this event is not to be missed. Register now and enter the battlegrounds!"
-                entryFee = "100/-"
+                entryFee = "300/-"
                 eventVenue = "Computer Science Labs - 5th floor"
                 prizePool = "15000/-"
                 eventDate = "21/04/2023 - 22/04/2023"
