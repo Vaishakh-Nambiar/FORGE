@@ -45,6 +45,7 @@ function Valorant(){
             type="text"
             placeholder="Captain Phone number"
             onChange={(e) => setCaptainPhone(e.target.value)}
+            required
           />
           <br />
           <input
