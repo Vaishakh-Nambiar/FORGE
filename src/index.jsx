@@ -29,16 +29,11 @@ function Routee() {
             element={
               <EventPage
                 eventName="Valorant"
-                eventDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum."
+                eventDescription="Ready to put your skills to the test? Join our Valorant gaming tournament and compete with the best players in the game! With exciting prizes, thrilling matches, and fierce competition, this is the ultimate event for serious gamers. Register now and show us what you've got!"
+                
                 reference="/valorant-registration"
                 entryFee = "300/-"
-                eventVenue = "Computer Science labs"
+                eventVenue = "Computer Science Labs - 5th floor"
                 prizePool = "15000/-"
                 eventDate = "21/04/2023 - 22/04/2023"
                 // imgLink={gaming_arena}

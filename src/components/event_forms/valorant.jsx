@@ -38,6 +38,7 @@ function Valorant(){
             type="text"
             placeholder="Team Name"
             onChange={(e) => setTeamName(e.target.value)}
+            required
           />
           <br />
           <input
@@ -53,6 +54,7 @@ function Valorant(){
             type="text"
             placeholder="Captain InGame Name and Tagline"
             onChange={(e) => setIgName(e.target.value)}
+            required
           />
           <br />
           <input
@@ -60,13 +62,15 @@ function Valorant(){
             type="text"
             placeholder="Discord Id"
             onChange={(e) => setDiscordId(e.target.value)}
+            required
           />
           <br />
           <input
             value={TxId}
             type="text"
-            placeholder="Transaction Id/UPI Reference"
+            placeholder="Alternate Contact Number (WhatsApp)"
             onChange={(e) => setTxId(e.target.value)}
+            required
           />
           <br />
         <button type="submit" className="valorant-btn">

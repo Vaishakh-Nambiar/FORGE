@@ -110,7 +110,7 @@ function EventPage(props) {
           </span>
           <li>+91 73490 00173 - Rupak</li>
           <li>+91 79968 81962 - Vaishakh</li>
-          <li>+91 6383 240 522 - Nikita</li>
+          <li>+91 6383 240 522 - Nikitha</li>
           <button
             class="valorant-btn"
             onClick={() => (window.location.href = `${props.reference}`)}
