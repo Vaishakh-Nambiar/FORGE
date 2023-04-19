@@ -54,6 +54,7 @@ function Bgmi() {
           type="text"
           placeholder="Team Name"
           onChange={(e) => setTeamName(e.target.value)}
+          required
         />
         <br />
         <input
@@ -61,6 +62,7 @@ function Bgmi() {
           type="text"
           placeholder="Captain Name"
           onChange={(e) => setTeamCaptain(e.target.value)}
+          required
         />
         <br />
         <input
@@ -68,6 +70,7 @@ function Bgmi() {
           type="text"
           placeholder="Captain Registration Number"
           onChange={(e) => setRegNo1(e.target.value)}
+          required
         />
         <br />
         <input
@@ -75,6 +78,7 @@ function Bgmi() {
           type="text"
           placeholder="TeamMate-2 Name"
           onChange={(e) => setTeamMate2(e.target.value)}
+          required
         />
         <br />
         <input
@@ -82,6 +86,7 @@ function Bgmi() {
           type="text"
           placeholder="TeamMate-2 Registration Number"
           onChange={(e) => setRegNo2(e.target.value)}
+          required
         />
         <br />
         <input
@@ -89,6 +94,7 @@ function Bgmi() {
           type="text"
           placeholder="TeamMate-3 Name"
           onChange={(e) => setTeamMate3(e.target.value)}
+          required
         />
         <br />
         <input
@@ -96,6 +102,7 @@ function Bgmi() {
           type="text"
           placeholder="TeamMate-3 Registration Number"
           onChange={(e) => setRegNo3(e.target.value)}
+          required
         />
         <br />
         <input
@@ -103,6 +110,7 @@ function Bgmi() {
           type="text"
           placeholder="TeamMate-4 Name"
           onChange={(e) => setTeamMate4(e.target.value)}
+          required
         />
         <br />
         <input
@@ -110,6 +118,7 @@ function Bgmi() {
           type="text"
           placeholder="TeamMate-4 Registration Number"
           onChange={(e) => setRegNo4(e.target.value)}
+          required
         />
         <br />
         <input
@@ -131,6 +140,7 @@ function Bgmi() {
           type="text"
           placeholder="Captain In-game Name"
           onChange={(e) => setCaptainIgName(e.target.value)}
+          required
         />
         <br />
         <input
@@ -138,6 +148,7 @@ function Bgmi() {
           type="text"
           placeholder="Transaction Id"
           onChange={(e) => setTxId(e.target.value)}
+          required
         />
         <br />
         <button type="submit" className="valorant-btn">
