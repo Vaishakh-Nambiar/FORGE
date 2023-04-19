@@ -146,7 +146,7 @@ function Bgmi() {
         <input
           value={TxId}
           type="text"
-          placeholder="Transaction Id"
+          placeholder="PhoneNumber(WhatsApp)"
           onChange={(e) => setTxId(e.target.value)}
           required
         />
