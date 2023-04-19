@@ -47,7 +47,10 @@ function Routee() {
               <EventPage
                 eventName="Fifa"
                 eventDescription="Are you ready to take your FIFA skills to the next level? Join our FIFA gaming tournament and compete against the best players in the game! With thrilling matches, intense gameplay, and exciting prizes, this is the ultimate event for soccer fans and gamers alike. Register now and show us your skills!"
-
+                entryFee = "100/-"
+                eventVenue = "Computer Science Labs - 5th floor"
+                prizePool = "3000/-"
+                eventDate = "21/04/2023 - 22/04/2023"
                 reference="/fifa-registration"
               />
             }
@@ -59,7 +62,10 @@ function Routee() {
               <EventPage
                 eventName="BGMI"
                 eventDescription="Get ready for the ultimate battle royale experience! Join our BGMI gaming tournament and compete against top players for a chance to win amazing prizes. With intense gameplay, adrenaline-pumping action, and skilled competitors, this event is not to be missed. Register now and enter the battlegrounds!"
-
+                entryFee = "100/-"
+                eventVenue = "Computer Science Labs - 5th floor"
+                prizePool = "15000/-"
+                eventDate = "21/04/2023 - 22/04/2023"
                 reference="/bgmi-registration"
               />
             }
@@ -71,7 +77,10 @@ function Routee() {
               <EventPage
                 eventName="Hackathon"
                 eventDescription="Join our VR/AR hackathon and take your skills to the next level! With cutting-edge technology and innovative challenges, this event is the ultimate opportunity to showcase your creativity and expertise. Network with like-minded professionals, develop amazing projects, and win prizes. Register now and join the future of technology!"
-
+                entryFee = "NADA"
+                eventVenue = "Computer Science Labs - 5th floor"
+                prizePool = "10000/-"
+                eventDate = "21/04/2023 - 22/04/2023"
                 reference="/hackathon-registration"
               />
             }

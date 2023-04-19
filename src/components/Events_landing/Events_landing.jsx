@@ -105,9 +105,9 @@ export default function Events_landing() {
 
           <article>
             <div class="article-wrapper">
-              {/* <figure>
+              <figure>
                 <img src="hackathon_gif.gif" alt="" />
-              </figure> */}
+              </figure>
               <div class="article-body">
                 <h2>Hackathon</h2>
                 <p>
@@ -144,12 +144,10 @@ export default function Events_landing() {
               <div class="article-body">
                 <h2>Rendezvous</h2>
                 <p>
-                  Curabitur convallis ac quam vitae laoreet. Nulla mauris ante,
-                  euismod sed lacus sit amet, congue bibendum eros. Etiam mattis
-                  lobortis porta. Vestibulum ultrices iaculis enim imperdiet
-                  egestas.
+                Get ready for an adventure like no other! Our treasure hunt event uses cutting-edge AR technology to create an immersive experience. Solve clues, discover hidden treasures, and compete with friends in this unique and thrilling adventure. Join us now!
+
                 </p>
-                <a href="#" class="read-more">
+                <a href="/rendezvous" class="read-more">
                   Register-now{" "}
                   <span class="sr-only">about this is some title</span>
                   <svg
@@ -177,11 +175,7 @@ export default function Events_landing() {
               <div class="article-body">
                 <h2>Gaming-Arena</h2>
                 <p>
-                  Watch the epic finale of the Avengers saga at GG's special
-                  screening of Avengers: Endgame. Join us for a thrilling
-                  cinematic experience with stunning visual effects and an
-                  all-star cast. Don't miss your chance to see this blockbuster
-                  movie on the big screen at our gaming event.{" "}
+                Welcome to Console Crusade, the ultimate gaming arena for console and PC enthusiasts! Get ready to embark on an epic gaming adventure with titles like Uncharted, Forza 5, Mortal Kombat, and Spider-Man. Join us for an unforgettable gaming experience and compete with fellow gamers for glory!{" "}
                 </p>
                 {/* <a href="#" class="read-more">
                   {" "}
@@ -211,10 +205,8 @@ export default function Events_landing() {
               <div class="article-body">
                 <h2>Hallucinate</h2>
                 <p>
-                  Curabitur convallis ac quam vitae laoreet. Nulla mauris ante,
-                  euismod sed lacus sit amet, congue bibendum eros. Etiam mattis
-                  lobortis porta. Vestibulum ultrices iaculis enim imperdiet
-                  egestas.
+                Experience a world beyond your imagination with our VR event featuring the Oculus headset! Explore amazing virtual landscapes, interact with objects, and immerse yourself in an entirely new reality. Join us for a mind-bending experience that will leave you wanting more!
+
                 </p>
                 {/* <a href="#" class="read-more">
                   {" "}

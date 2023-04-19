@@ -89,7 +89,7 @@ export const Intro = () => {
       ".title-up",
       { x: -200 },
       {
-        x: 180,
+        x: 400,
         // opacity: 1,
         duration: 500,
         // delay: 100,
