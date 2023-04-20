@@ -74,7 +74,7 @@ function Fifa() {
         <input
           value={cuspRank}
           type="text"
-          placeholder="Cusp Rank"
+          placeholder="PhoneNumber(WhatsApp)"
           className="input"
           required
           onChange={(e) => setCuspRank(e.target.value)}
